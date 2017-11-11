@@ -1,0 +1,10 @@
+/* 用于首页的底部按钮控件， bottomMenu */
+.home-footer { position: fixed; z-index: 999; bottom: 0; width: 100%; height: 3rem; background: white; line-height: 0.5rem; border-top: 1px solid #f7f7f7; }
+
+.menu .home_icon { width: 30px; height: 30px; }
+
+.menu li.home-bottom { width: 25%; text-align: -webkit-center; }
+
+.menu li.home-bottom div { width: 40px; }
+
+.am-navbar-label{ line-height: 1; font-size: 12px; display: block; word-wrap: normal;text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align: center; color: #060606; }

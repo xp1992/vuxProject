@@ -1,0 +1,51 @@
+.detial { padding: 1rem; overflow: hidden; background: #fff;}
+
+.price { border-bottom: 1px solid #ddd;}
+.price b { color: #f60; font-size: 1.3rem;}
+.price span { color: #999;}
+
+.store p { color: #666;}
+
+
+.bundle { border-bottom: 4px solid #f7f7f7; margin-top: 0.2rem; padding-bottom: 2.7rem; }
+.bundle:last-child { border-bottom: none; }
+.bref {padding: 0.5rem}
+p.d-title { color: #3fbbbd; margin-bottom: 0.22rem; }
+p.d-title span { margin-left: 0.8rem; }
+.text-detial { color: #888; text-indent: 2em; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; text-align: justify; /*font-size: 0.14rem;*/  /*-webkit-line-clamp: 2;*/ margin-top: 0.3rem }
+.text-detial span {color: black}
+
+.bundle .content-wrap { padding:0 0.2rem !important; }
+.bundle .content-item { display: flex; margin-left: 1.5rem; margin-right: 0.9rem; }
+.bundle .content-item .item-name { flex: 0 0 120px; color: #666; }
+.bundle .content-item .item-value { flex: 1; color: #333; word-break: keep-all;/* 不换行 */ white-space: nowrap;/* 不换行 */ overflow: hidden;/* 内容超出宽度时隐藏超出部分的内容 */ text-overflow: ellipsis; }
+
+.bundle .rater { text-align: center; }
+
+/* 遮罩层样式 */
+/* .shade { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.3); z-index: 10;} */
+
+/* .dialog-content{ width: 80%; margin-top: 2rem; margin-left: 10%; background: #fff; padding: 0.1rem; border-radius: 5px; } */
+
+.footer { position: fixed; z-index: 999; bottom: 0; width: 100%; height: 2.7rem; background: white; line-height: 0.5rem; border-top: 1px solid #f7f7f7; }
+
+.blank { margin-bottom: 2.7rem }
+
+.shoppingcart { margin-left: 1.5rem; }
+.menu { list-style: none; }
+.menu .badge { position: absolute; bottom: 1.5rem; left: 5rem; }
+.menu li { float: left;}
+.menu li.button { float: right; padding: 0.5rem; }
+/* .menu li.button.first-button {  } 暂时不用 */
+
+/* 给提示图标加入过渡动画 */
+.badge-enter-active { transition: all 0.5s linear; }
+
+.badge-enter, .badge-leave-active { opacity: 0; transform:translateX(50px); }
+
+
+
+/* 用于首页的底部按钮控件， bottomMenu */
+.menu .home_icon { width: 30px; height: 30px; }
+
+.am-navbar-label{ line-height: 1; font-size: 12px; display: block; word-wrap: normal;text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align: center; color: #060606; }
