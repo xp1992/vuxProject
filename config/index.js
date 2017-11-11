@@ -29,8 +29,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        // target: 'http://localhost:8080/rest/',
-        target: 'http://salewxqa.gtdreamlife.com/rest/',
+        target: 'http://localhost:8080/rest/',
         changeOrigin: true,
         /*pathRewrite: {
           '^/api': ''
